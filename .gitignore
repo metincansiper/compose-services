@@ -1,4 +1,8 @@
-Secrets/
+Secrets/*creds.json
+Secrets/fence-config.yaml
+Secrets/fenceJwtKeys/
+Secrets/*.pem
+Secrets/TLS/
 *.lock*
 *.env
 *.bak

@@ -216,8 +216,8 @@ services:
     volumes:
       - ./scripts/waitForContainers.sh:/var/www/data-portal/waitForContainers.sh
       - ./Secrets/gitops.json:/data-portal/data/config/gitops.json
-      - ./Secrets/gitops-logo.png:/data-portal/custom/logo/gitops-logo.png
-      - ./Secrets/gitops.png:/data-portal/custom/createdby/gitops.png
+      - ./Secrets/HOP_logo.png:/data-portal/custom/logo/gitops-logo.png
+      - ./Secrets/HOP_social.png:/data-portal/custom/createdby/gitops.png
     environment:
       - NODE_ENV=dev
       #- MOCK_STORE=true

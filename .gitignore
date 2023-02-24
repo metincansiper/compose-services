@@ -16,3 +16,4 @@ Secrets/credentials.json
 *.cache
 *pyc
 docker-compose.override.yml
+dashboard/
